@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+/*
+Sum of N Natural Numbers
+By:AYS
+*/
+
+	int sum(int n);
+	int main()
+{
+	int n;
+	printf("Enter Limit Number \n");
+	scanf("%d",&n);
+	
+	printf("Sum is %d",sum(n));
+	
+	return 0;
+	
+}
+
+	int sum(int n)
+{
+	if(n==1){
+	return 1;	
+}
+	int summ1=sum(n-1);
+	int sum=summ1+n;
+	
+	return sum;
+}
