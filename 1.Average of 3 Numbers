@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+/*
+Average of 3 Numbers.
+By:AYS
+*/
+
+int main()
+{
+	
+	int a,b,c,avg;
+	printf("Enter 3 Numbers for obtaining their average \n");
+	scanf("%d%d%d",&a,&b,&c);
+	
+	avg=a+b+c/2;
+	printf("Average is %d\n",avg);
+	
+	return 0;
+	
+}
