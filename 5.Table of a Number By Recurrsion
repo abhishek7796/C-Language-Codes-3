@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+/*
+Table of Number By Recurrsion:
+By:AYS
+*/
+
+	int table(int n);
+
+	int main(){
+	
+	int i,n;
+	printf("Enter numbers(Table to be Calculated):\n");
+	scanf("%d",&n);
+	printf("%d X %d = %d \n",n,i,(table(n)));
+	
+	return 0;
+  }
+	int table(int n)
+	{
+	int i=1;
+	for(i=1;i<=10;i++)
+	
+	printf("%d",table);
+	return table;
+	}
