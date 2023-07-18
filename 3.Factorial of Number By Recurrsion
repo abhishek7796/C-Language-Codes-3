@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+/*
+Factorial of a Number 
+By:AYS
+*/
+
+	int fact(int n);
+	
+	int main()
+{
+	int n;
+	printf("Enter Number\n");
+	scanf("%d",&n);
+	
+	printf("Factorial of your Number is %d",fact(n));
+	
+	return 0;
+}
+
+	int fact(int n)
+{
+	if(n==0){
+	return 1;
+}
+	int fact1=fact(n-1);
+	int fact=fact1*n;
+	
+	return fact;	
+}
+
