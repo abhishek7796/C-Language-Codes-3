@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+/*
+Alphabets By Pointer
+By:AYS
+*/
+
+int main()
+{
+    char alph[27];
+    int x;
+    char *ptr;
+ 	  printf("\n\n Pointer : Print All the Alphabets:\n"); 
+	  printf("-----------------------------------------------------------------------------------------------------------\n");
+    ptr = alph;     
+
+    for(x=0;x<26;x++)
+    {
+   *ptr=x+'A';
+    ptr++;
+    }
+    ptr = alph;
+
+printf(" The Alphabets are:-\n\n");
+    for(x=0;x<26;x++)
+    {
+    printf(" %c ", *ptr);
+    ptr++;
+    }
+    printf("\n\n");
+    return(0);
+}
