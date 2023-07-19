@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+/*
+Print Natural Numbers till N
+By:AYS
+*/
+
+int num(int n);
+
+void main()
+{
+	int i,n;
+	
+	printf("Enter the Last Digit\n");
+	scanf("%d",&n);
+	
+	num(n);
+}
+
+int num(int n)
+{
+	int i;
+	
+	for(i=1;i<=n;i++)
+	{
+		printf("%d\n",i);
+		
+	}
+}
