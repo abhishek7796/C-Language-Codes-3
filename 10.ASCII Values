@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+/*
+ASCII Values
+By:AYS
+*/
+
+int main()
+{
+	int i;
+	
+	for(i=1;i<=123;i++)
+	{
+		printf("ASCII Value of Character is:-%c %d\n",i,i);
+	}
+return 0;	
+}
